@@ -1,0 +1,31 @@
+{
+  "name": "callbackify2",
+  "version": "0.0.1",
+  "description": "Lightweight callbackify",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/nak2k/node-callbackify/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.9.0"
+  },
+  "homepage": "https://github.com/nak2k/node-callbackify/tree/master/callbackify2",
+  "keywords": [
+    "callback",
+    "callbackify"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nak2k/node-callbackify.git"
+  },
+  "scripts": {
+    "prepublishOnly": "npm t",
+    "test": "tape test/test*.js"
+  },
+  "files": [
+    "README.md",
+    "index.js"
+  ]
+}
